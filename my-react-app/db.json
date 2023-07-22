@@ -1,0 +1,124 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "T-shirt 1",
+      "price": 20.99,
+      "image": ""
+    },
+    {
+      "id": 2,
+      "title": "T-shirt 2",
+      "price": 18.99,
+      "image": ""
+    },
+    {
+      "id": 3,
+      "title": "T-shirt 3",
+      "price": 23.99,
+      "image": ""
+    },
+    {
+      "id": 4,
+      "title": "T-shirt 4",
+      "price": 19.99,
+      "image": ""
+    },
+    {
+      "id": 5,
+      "title": "T-shirt 5",
+      "price": 10.99,
+      "image": ""
+    },
+    {
+      "id": 6,
+      "title": "T-shirt 6",
+      "price": 23.99,
+      "image": ""
+    },
+    {
+      "id": 7,
+      "title": "T-shirt 7",
+      "price": 24.99,
+      "image": ""
+    },
+    {
+      "id": 8,
+      "title": "T-shirt 8",
+      "price": 17.99,
+      "image": ""
+    },
+    {
+      "id": 9,
+      "title": "T-shirt 9",
+      "price": 21.99,
+      "image": ""
+    },
+    {
+      "id": 10,
+      "title": "T-shirt 10",
+      "price": 15.99,
+      "image": ""
+    },
+    {
+      "id": 11,
+      "title": "T-shirt 11",
+      "price": 28.99,
+      "image": ""
+    },
+    {
+      "id": 12,
+      "title": "T-shirt 12",
+      "price": 17.99,
+      "image": ""
+    },
+    {
+      "id": 13,
+      "title": "T-shirt 13",
+      "price": 19.99,
+      "image": ""
+    },
+    {
+      "id": 14,
+      "title": "T-shirt 14",
+      "price": 18.99,
+      "image": ""
+    },
+    {
+      "id": 15,
+      "title": "T-shirt 15",
+      "price": 21.99,
+      "image": ""
+    },
+    {
+      "id": 16,
+      "title": "T-shirt 16",
+      "price": 18.99,
+      "image": ""
+    },
+    {
+      "id": 17,
+      "title": "T-shirt 17",
+      "price": 24.99,
+      "image": ""
+    },
+    {
+      "id": 18,
+      "title": "T-shirt 18",
+      "price": 15.99,
+      "image": ""
+    },
+    {
+      "id": 19,
+      "title": "T-shirt 19",
+      "price": 20.99,
+      "image": ""
+    },
+    {
+      "id": 20,
+      "title": "T-shirt 20",
+      "price": 18.99,
+      "image": ""
+    }
+  ]
+}
