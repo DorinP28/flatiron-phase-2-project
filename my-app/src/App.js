@@ -1,36 +1,33 @@
-import React, { useState, useEffect } from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
-import Header from "./components/Header";
-import ProductList from "./components/ProductList";
+import React from "react";
+import { Routes, Route, Link } from "react-router-dom";
 import CheckoutForm from "./components/CheckoutForm";
+import ShoppingCard from "./components/ShoppingCard";
+import "./styles.css";
 
-const App = () => {
-  const [products, setProducts] = useState([]);
-
-  useEffect(() => {
-    fetch("http://localhost:3000/products")
-      .then((res) => res.json())
-      .then((data) => setProducts(data));
-  }, []);
-
-  const navigateTo = (path) => {
-    window.history.pushState(null, null, path);
-    window.dispatchEvent(new Event("popstate"));
-  };
-
+function App() {
   return (
-    <Router>
-      <div>
-        <Header navigateTo={navigateTo} />
-        <Route exact path="/">
-          <ProductList products={products} />
-        </Route>
-        <Route path="/checkout">
-          <CheckoutForm navigateTo={navigateTo} />
-        </Route>
-      </div>
-    </Router>
+    <div className="App">
+      <nav>
+        <ul>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/checkout">Checkout</Link>
+          </li>
+        </ul>
+      </nav>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/checkout" element={<CheckoutForm />} />
+      </Routes>
+      <ShoppingCard />
+    </div>
   );
-};
+}
+
+function Home() {
+  return <h1>Welcome to the Home Page</h1>;
+}
 
 export default App;

@@ -1,6 +1,6 @@
 import React from "react";
 
-const Header = ({ navigateTo }) => {
+const Header = ({ navigateTo, cardItemsCount }) => {
   const handleNavigate = (path) => {
     navigateTo(path);
   };
@@ -11,6 +11,7 @@ const Header = ({ navigateTo }) => {
         <button onClick={() => handleNavigate("/")}>Home</button>
         <button onClick={() => handleNavigate("/checkout")}>Checkout</button>
       </nav>
+      <div>Cart Items: {cardItemsCount}</div>
     </header>
   );
 };

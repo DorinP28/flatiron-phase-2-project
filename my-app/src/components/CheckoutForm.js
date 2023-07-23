@@ -27,13 +27,11 @@ const CheckoutForm = ({ navigateTo }) => {
       .then((data) => {
         // Assuming the server returns the newly created order object with an ID
         console.log("Order submitted successfully:", data);
-        // Clear the form and navigate back to the home page
         setFormData({ name: "", email: "", address: "" });
         navigateTo("/");
       })
       .catch((error) => {
         console.error("Error submitting order:", error);
-        // Handle any errors or show error messages to the user
       });
   };
 
