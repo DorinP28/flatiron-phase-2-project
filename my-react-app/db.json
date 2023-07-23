@@ -2,123 +2,153 @@
   "products": [
     {
       "id": 1,
-      "title": "T-shirt 1",
+      "title": "T-shirt  (1)",
       "price": 20.99,
-      "image": ""
+      "image": "T-shirt  (1).jpg"
     },
     {
       "id": 2,
-      "title": "T-shirt 2",
+      "title": "T-shirt  (2)",
       "price": 18.99,
-      "image": ""
+      "image": "T-shirt  (2).jpg"
     },
     {
       "id": 3,
-      "title": "T-shirt 3",
+      "title": "T-shirt  (3)",
       "price": 23.99,
-      "image": ""
+      "image": "T-shirt  (3).jpg"
     },
     {
       "id": 4,
-      "title": "T-shirt 4",
+      "title": "T-shirt  (4)",
       "price": 19.99,
-      "image": ""
+      "image": "T-shirt  (4).jpg"
     },
     {
       "id": 5,
-      "title": "T-shirt 5",
+      "title": "T-shirt  (5)",
       "price": 10.99,
-      "image": ""
+      "image": "T-shirt  (5).jpg"
     },
     {
       "id": 6,
-      "title": "T-shirt 6",
+      "title": "T-shirt  (6)",
       "price": 23.99,
-      "image": ""
+      "image": "T-shirt  (6).jpg"
     },
     {
       "id": 7,
-      "title": "T-shirt 7",
+      "title": "T-shirt  (7)",
       "price": 24.99,
-      "image": ""
+      "image": "T-shirt  (7).jpg"
     },
     {
       "id": 8,
-      "title": "T-shirt 8",
+      "title": "T-shirt  (8)",
       "price": 17.99,
-      "image": ""
+      "image": "T-shirt  (8).jpg"
     },
     {
       "id": 9,
-      "title": "T-shirt 9",
+      "title": "T-shirt  (9)",
       "price": 21.99,
-      "image": ""
+      "image": "T-shirt  (9).jpg"
     },
     {
       "id": 10,
-      "title": "T-shirt 10",
+      "title": "T-shirt  (10)",
       "price": 15.99,
-      "image": ""
+      "image": "T-shirt  (10).jpg"
     },
     {
       "id": 11,
-      "title": "T-shirt 11",
+      "title": "T-shirt  (11)",
       "price": 28.99,
-      "image": ""
+      "image": "T-shirt  (11).jpg"
     },
     {
       "id": 12,
-      "title": "T-shirt 12",
+      "title": "T-shirt  (12)",
       "price": 17.99,
-      "image": ""
+      "image": "T-shirt  (12).jpg"
     },
     {
       "id": 13,
-      "title": "T-shirt 13",
+      "title": "T-shirt  (13)",
       "price": 19.99,
-      "image": ""
+      "image": "T-shirt  (13).jpg"
     },
     {
       "id": 14,
-      "title": "T-shirt 14",
+      "title": "T-shirt  (14)",
       "price": 18.99,
-      "image": ""
+      "image": "T-shirt  (14).jpg"
     },
     {
       "id": 15,
-      "title": "T-shirt 15",
+      "title": "T-shirt  (15)",
       "price": 21.99,
-      "image": ""
+      "image": "T-shirt  (15).jpg"
     },
     {
       "id": 16,
-      "title": "T-shirt 16",
+      "title": "T-shirt  (16)",
       "price": 18.99,
-      "image": ""
+      "image": "T-shirt  (16).jpg"
     },
     {
       "id": 17,
-      "title": "T-shirt 17",
+      "title": "T-shirt  (17)",
       "price": 24.99,
-      "image": ""
+      "image": "T-shirt  (17).jpg"
     },
     {
       "id": 18,
-      "title": "T-shirt 18",
+      "title": "T-shirt  (18)",
       "price": 15.99,
-      "image": ""
+      "image": "T-shirt  (18).jpg"
     },
     {
       "id": 19,
-      "title": "T-shirt 19",
+      "title": "T-shirt  (19)",
       "price": 20.99,
-      "image": ""
+      "image": "T-shirt  (19).jpg"
     },
     {
       "id": 20,
-      "title": "T-shirt 20",
+      "title": "T-shirt  (20)",
       "price": 18.99,
-      "image": ""
+      "image": "T-shirt  (20).jpg"
+    },
+    {
+      "id": 21,
+      "title": "T-shirt  (21)",
+      "price": 21.99,
+      "image": "T-shirt  (21).jpg"
+    },
+    {
+      "id": 22,
+      "title": "T-shirt  (22)",
+      "price": 18.99,
+      "image": "T-shirt  (22).jpg"
+    },
+    {
+      "id": 23,
+      "title": "T-shirt  (23)",
+      "price": 24.99,
+      "image": "T-shirt  (23).jpg"
+    },
+    {
+      "id": 24,
+      "title": "T-shirt  (24)",
+      "price": 15.99,
+      "image": "T-shirt  (24).jpg"
+    },
+    {
+      "id": 25,
+      "title": "T-shirt  (25)",
+      "price": 20.99,
+      "image": "T-shirt  (25).jpg"
     }
   ]
 }
