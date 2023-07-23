@@ -1,33 +1,22 @@
 import React from "react";
-import { Routes, Route, Link } from "react-router-dom";
-import CheckoutForm from "./components/CheckoutForm";
-import ShoppingCard from "./components/ShoppingCard";
-import "./styles.css";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import HomePage from "./components/HomePage";
+import AboutPage from "./components/AboutPage";
+import Header from "./components/Header";
 
 function App() {
   return (
-    <div className="App">
-      <nav>
-        <ul>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/checkout">Checkout</Link>
-          </li>
-        </ul>
-      </nav>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/checkout" element={<CheckoutForm />} />
-      </Routes>
-      <ShoppingCard />
-    </div>
+    <Router>
+      <div className="App">
+        <Header />
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/about" element={<AboutPage />} />
+          {/* Your other routes here */}
+        </Routes>
+      </div>
+    </Router>
   );
-}
-
-function Home() {
-  return <h1>Welcome to the Home Page</h1>;
 }
 
 export default App;
