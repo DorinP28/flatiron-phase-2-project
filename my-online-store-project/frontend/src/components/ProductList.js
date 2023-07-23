@@ -1,4 +1,3 @@
-// frontend/src/components/ProductList.js
 import React, { useState, useEffect } from "react";
 import ProductCard from "./ProductCard";
 
