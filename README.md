@@ -24,11 +24,15 @@ This project is built with React.js and uses the Context API for state managemen
 
 ## Installation and Setup
 
-1. Clone the repository.
-2. Run `npm install` to install the necessary dependencies.
-3. Run `npm start` to start the development server.
+Installation and Setup
 
-Visit http://localhost:3000 to view the application.
+- Clone the repository.
+- Navigate to the project directory and run npm install to install the necessary dependencies.
+- Install json-server globally using npm install -g json-server if you haven't done so before.
+- Start the mock back-end server using json-server --watch db.json. This will create a mock back-end server for development purposes. It will watch your db.json file by default, and update the served data whenever the db.json file changes.
+- In a separate terminal, run npm start to start the development server. If a process is already running on the default port (3000), you will be asked if you want to use a different port. Press 'Y' to confirm.
+- Visit http://localhost:3001 (or the port you accepted in the previous step) to view the application.
+- Please note that json-server and the development server must both be running concurrently for the application to work properly.
 
 ## Future Updates
 
