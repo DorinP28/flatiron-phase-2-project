@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import { CartContext } from "./CartContext";
 
 const Cart = () => {
-  const { cart, updateQuantity } = useContext(CartContext);
+  const { cart, updateQuantity, removeFromCart } = useContext(CartContext);
 
   const incrementQuantity = (product) => {
     updateQuantity(product, product.quantity + 1);
@@ -12,6 +12,10 @@ const Cart = () => {
     if (product.quantity > 1) {
       updateQuantity(product, product.quantity - 1);
     }
+  };
+
+  const handleCheckout = () => {
+    alert("Thank you for Shopping with us!");
   };
 
   return (
@@ -25,8 +29,10 @@ const Cart = () => {
           <p>Quantity: {item.quantity}</p>
           <button onClick={() => decrementQuantity(item)}>-</button>
           <button onClick={() => incrementQuantity(item)}>+</button>
+          <button onClick={() => removeFromCart(item)}>Remove</button>
         </div>
       ))}
+      <button onClick={handleCheckout}>Checkout</button>
     </div>
   );
 };

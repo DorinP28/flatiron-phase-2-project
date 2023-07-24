@@ -1,15 +1,42 @@
-import React, { useContext } from "react";
+import React, { useContext, useState } from "react";
 import { CartContext } from "./CartContext";
 
 const Product = ({ product }) => {
-  const { addToCart } = useContext(CartContext);
+  const { cart, addToCart, removeFromCart } = useContext(CartContext);
+
+  const isInCart = cart.find((item) => item.id === product.id) !== undefined;
+
+  const [isZoomed, setIsZoomed] = useState(false);
+
+  const handleAddToCart = () => {
+    addToCart(product);
+  };
+
+  const handleRemoveFromCart = () => {
+    removeFromCart(product);
+  };
+
+  const toggleZoom = () => {
+    setIsZoomed(!isZoomed);
+  };
 
   return (
     <div className="product">
-      <img src={`../product images/${product.image}`} alt={product.title} />
+      <img src={`../product images/${product.image}`} alt={product.title} onClick={toggleZoom} className={isZoomed ? "zoomed" : ""} />
       <h2>{product.title}</h2>
       <p>${product.price}</p>
-      <button onClick={() => addToCart(product)}>Add to cart</button>
+      {isInCart ? (
+        <div>
+          <button className="in-cart">In Cart</button>
+          <button onClick={handleRemoveFromCart} className="cancel">
+            Cancel
+          </button>
+        </div>
+      ) : (
+        <button onClick={handleAddToCart} className="add-to-cart">
+          Add to Cart
+        </button>
+      )}
     </div>
   );
 };
