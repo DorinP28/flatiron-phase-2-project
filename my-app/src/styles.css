@@ -113,3 +113,65 @@ nav ul li {
 .cart-total {
   text-align: right;
 }
+
+.hero {
+  background-color: #f4f4f4;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2em;
+  margin-bottom: 40px;
+}
+
+.hero .cta {
+  text-decoration: none;
+  color: #fff;
+  background-color: #333;
+  padding: 10px 20px;
+  font-size: 1.2em;
+}
+
+.intro {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.intro h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.intro p {
+  font-size: 1.2em;
+  max-width: 600px;
+  margin: auto;
+}
+
+.about-page {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  color: #333;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+
+.about-page h2,
+.about-page h3 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.about-page p {
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
