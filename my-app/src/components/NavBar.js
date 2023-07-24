@@ -14,6 +14,9 @@ const NavBar = () => {
         <li>
           <Link to="/about">About</Link>
         </li>
+        <li>
+          <Link to="/cart">My Cart</Link>
+        </li>
       </ul>
     </nav>
   );
