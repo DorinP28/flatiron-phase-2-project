@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import NavBar from "./components/NavBar";
+import Header from "./components/Header";
 import HomePage from "./components/HomePage";
 import AboutPage from "./components/AboutPage";
 import ProductList from "./components/ProductList";
@@ -13,6 +14,7 @@ function App() {
     <div className="App">
       <Router>
         <CartProvider>
+          <Header />
           <NavBar />
           <Routes>
             <Route path="/" element={<HomePage />} />

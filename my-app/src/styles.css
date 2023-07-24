@@ -62,3 +62,54 @@ nav ul li {
   background-color: #008cba; /* Blue */
   color: white;
 }
+
+.cart-container {
+  margin: auto;
+  width: 80%;
+  padding: 10px;
+}
+
+.cart-title {
+  text-align: center;
+}
+
+.cart-item {
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.cart-item-buttons {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.checkout-button {
+  display: block;
+  margin: auto;
+  padding: 10px 20px;
+  background-color: #8baf4c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease;
+}
+
+.checkout-button:hover {
+  background-color: #45a049;
+  cursor: pointer;
+}
+
+.checkout-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(70, 130, 180, 0.6);
+}
+
+.cart-total {
+  text-align: right;
+}
